@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Veerle Zwart</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="PortfolioStyle.css">
+
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="VeerlePortfolio.html"data-logo="Afbeeldingen/logos/veer-en-vorm-logo-svg/veer-en-vorm-logo-02-negatief.svg" aria-label="Veerle Zwart, naar home">
+    <span class="name">Veerle Zwart</span>
+    <span class="sub">portfolio</span>
+  </a>
+  <button class="menu-knop" type="button" aria-label="Menu openen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="links">
+    <a href="VeerlePortfolio.html#over-mij">Over mij</a>
+    <a href="projecten.html" data-sectie="projecten">Projecten</a>
+    <a href="VeerlePortfolio.html#ervaringen">Ervaringen</a>
+    <a href="VeerlePortfolio.html#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="over-mij" style="padding:0;">
+  <div class="hero-photo"><img src="Afbeeldingen/FotoVeerle.jpeg"></div>
+  <div class="hero-card-wrap">
+    <div class="hero-card">
+      <h1>Veerle Zwart</h1>
+      <p class="role">Communicatie &amp; Design</p>
+      <p>Eerstejaars CrossMedia Design aan Artevelde Hogeschool in Gent. Ik werk het liefst aan projecten waar strategie en vormgeving samenkomen.</p>
+      <p class="statuut">"Ik maak het zichtbaar: ideeën, mensen, verhalen."</p>
+      <div class="values">
+        <span class="value-pill">Creativiteit</span>
+        <span class="value-pill">Nauwkeurigheid</span>
+        <span class="value-pill">Verbindend zijn</span>
+      </div>
+	  <div class="hero-knoppen">
+        <a class="knop" href="projecten.html">Bekijk projecten <span class="pijl" aria-hidden="true">&rarr;</span></a>
+        <a class="knop knop-licht" href="#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true">
+  <div class="band-rij">
+    <span>Grafisch ontwerp</span><span>Communicatie</span><span>Branding</span><span>Posters</span><span>Collage</span><span>Strategie</span><span>Huisstijl</span>
+  </div>
+</div>
+
+<section id="projecten" class="uitgelicht">
+  <div class="section-head rij reveal">
+    <div>
+      <p class="eyebrow">Wat ik gemaakt heb</p>
+      <h2>Uitgelicht werk</h2>
+    </div>
+    <div class="carousel-pijlen">
+      <button class="carousel-knop vorige" type="button" aria-label="Vorige projecten">&#8592;</button>
+      <button class="carousel-knop volgende" type="button" aria-label="Volgende projecten">&#8594;</button>
+    </div>
+  </div>
+
+  <!-- De kaartjes komen automatisch uit projecten.js -->
+  <div class="carousel reveal" data-projecten="carousel" aria-label="Uitgelichte projecten"></div>
+  <div class="carousel-puntjes" aria-hidden="true"></div>
+
+  <div class="meer reveal">
+    <a class="knop knop-donker" href="projecten.html">Alle projecten bekijken <span class="pijl" aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
+<section id="ervaringen">
+  <div class="section-head">
+    <p class="eyebrow">Waar ik vandaan kom</p>
+    <h2>Ervaringen</h2>
+  </div>
+    <div class="ervaring-grid">
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-logo" data-logo="Afbeeldingen/logos/logo-prenatal.png">P</div>
+        <div class="tl-content">
+          <span class="tl-period">Heden · Bijbaan</span>
+          <h3>Prénatal Breda</h3>
+          <p>Werkervaring in een klantgerichte omgeving, communicatie en productkennis in de praktijk.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-logo" data-logo="Afbeeldingen/logos/logo-artevelde.png">A</div>
+        <div class="tl-content">
+          <span class="tl-period">Heden · Opleiding</span>
+          <h3>CrossMedia Design | Artevelde Hogeschool Gent</h3>
+          <p>Vormgeving en communicatie verder samenbrengen.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-logo" data-logo="Afbeeldingen/logos/logo-avans.webp">A</div>
+        <div class="tl-content">
+          <span class="tl-period">2025-2026 · Propedeuse</span>
+          <h3>Propedeuse Communicatie | Avans Hogeschool</h3>
+          <p>Portfolio Professionele Identiteit: zelfreflectie-opdrachten, gespreksverslagen met werkveldbuddy Mirella van der Velden, een promovideoscript en een motivatiebrief voor CrossMedia Design.</p>
+        </div>
+      </div>
+    </div>
+ <div class="ervaring-fotos">
+  <figure class="ervaring-foto reveal" data-afbeelding="Afbeeldingen/FotoCommunicatie.jpg">
+      <figcaption>Praatstof winnaar Firestarter Award - Avans</figcaption>
+    </figure>  
+  <figure class="ervaring-foto reveal" data-afbeelding="Afbeeldingen/FotoPropedeuse.jpg">
+        <figcaption>Propedeuse-uitreiking Communicatie</figcaption>
+      </figure>
+  </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head">
+    <p class="eyebrow">In contact komen</p>
+    <h2>Contact</h2>
+  </div>
+    <div class="contact-grid">
+    <a class="contact-item reveal" href="mailto:veerle.zwart@gmail.com">
+      <span class="label">E-mail</span>
+      <span class="value">veerle.zwart@gmail.com</span>
+    </a>
+    <a class="contact-item reveal" href="tel:+31615648652">
+      <span class="label">Telefoon</span>
+      <span class="value">+31 6 15 64 86 52</span>
+    </a>
+    <a class="contact-item reveal" href="https://www.linkedin.com/in/veerle-zwart-923246385" target="_blank" rel="noopener">
+      <span class="label">LinkedIn</span>
+      <span class="value">linkedin.com/in/veerle-zwart-923246385</span>
+    </a>
+    <div class="contact-item reveal">
+      <span class="label">Locatie</span>
+      <span class="value">Breda, Nederland</span>
+    </div>
+  </div>
+</section>
+
+<footer>© Veerle Zwart — persoonlijk portfolio <a class="naar-boven" href="#over-mij">Naar boven &uarr;</a></footer>
+
+<script>
+function toggleFolder(tab){
+  const folder = tab.closest('.folder');
+  const body = folder.querySelector('.folder-body');
+  const isOpen = folder.classList.contains('open');
+  if(isOpen){
+    folder.classList.remove('open');
+    body.style.maxHeight = null;
+  } else {
+    folder.classList.add('open');
+    body.style.maxHeight = body.scrollHeight + 'px';
+  }
+}
+window.addEventListener('load', () => {
+  document.querySelectorAll('.folder.open').forEach(folder=>{
+    const body = folder.querySelector('.folder-body');
+    body.style.maxHeight = body.scrollHeight + 'px';
+  });
+});
+</script>
+
+<!-- Pop-up per project -->
+<script src="projecten.js"></script>
+<script src="beweging.js"></script>
+
+</body>
+</html>
